@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="code">
+      <UniqueIdentifier>{2063ffcb-9b08-4c14-9ec1-2f1852fa4da1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\impl">
+      <UniqueIdentifier>{587bf3f3-7e1f-4d27-a303-d2f89d977a9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\include">
+      <UniqueIdentifier>{877681b7-c66b-45e8-a803-80e9703220c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\x_config.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\x_service_door.hpp">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\x_service_door_thread.hpp">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\x_service_door_util.hpp">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\x_service_door_dummy.hpp">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\x_service_door_container.hpp">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\x_service_door_boost.hpp">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\include\x_boost.h">
+      <Filter>code\include</Filter>
+    </ClInclude>
+    <ClInclude Include="code\include\x_container.h">
+      <Filter>code\include</Filter>
+    </ClInclude>
+    <ClInclude Include="code\include\x_dummy.h">
+      <Filter>code\include</Filter>
+    </ClInclude>
+    <ClInclude Include="code\include\x_thread.h">
+      <Filter>code\include</Filter>
+    </ClInclude>
+    <ClInclude Include="code\include\x_util.h">
+      <Filter>code\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="xService.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\x_service_thread.cpp">
+      <Filter>code\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="code\x_service_util.cpp">
+      <Filter>code\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="code\x_service_dummy.cpp">
+      <Filter>code\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="code\x_service_container.cpp">
+      <Filter>code\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="code\x_service_boost.cpp">
+      <Filter>code\impl</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,756 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Dlg">
+      <UniqueIdentifier>{6b242523-682b-4f15-b46d-c3113ecff926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{363ddd90-630a-424b-a923-8180b6652e3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\ChartClass">
+      <UniqueIdentifier>{adb9195f-4cb8-4cd2-96ca-a73d6bd81e21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\CpuUsage">
+      <UniqueIdentifier>{6141bf7c-c651-400a-a76f-86d009bd36d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Door">
+      <UniqueIdentifier>{d4b23f70-52f7-45fb-ab15-7d4da36c934a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\RkUtil">
+      <UniqueIdentifier>{433b69bb-1104-46aa-8cd3-99eec2271a3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\RKAPI">
+      <UniqueIdentifier>{8571b078-a998-44b9-b2c5-9dcad8b2d7dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\SQLAPI">
+      <UniqueIdentifier>{02cc7019-6d77-4007-94e7-d6892aed910e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\AFDAPI">
+      <UniqueIdentifier>{642ec3ef-1c6a-4859-abb6-eb5ddbd37294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\TinyXml">
+      <UniqueIdentifier>{8f1ae0fc-ac31-42f0-ace4-57022afc010b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{37ed8562-f3bb-427a-affd-d5c23d4f2888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rfid">
+      <UniqueIdentifier>{715d8680-928a-436c-a74f-899cbecc14be}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="UserImages.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\xDemo.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\xDemoDoc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\xDemo.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Util\ChartClass\ChartBalloonLabel.inl">
+      <Filter>Util\ChartClass</Filter>
+    </None>
+    <None Include="Util\ChartClass\ChartLabel.inl">
+      <Filter>Util\ChartClass</Filter>
+    </None>
+    <None Include="Util\ChartClass\ChartPointsArray.inl">
+      <Filter>Util\ChartClass</Filter>
+    </None>
+    <None Include="Util\ChartClass\ChartSerieBase.inl">
+      <Filter>Util\ChartClass</Filter>
+    </None>
+    <None Include="res\btn1_focus.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\btn1_nornal.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\btn1_nornal.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\btn1_focus.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\btn2_a.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\btn2_b.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\btn3_a.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\btn3_b.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\btn4_a.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\btn4_b.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\btn5_a.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\btn5_b.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\btn6_a.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\btn6_b.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\btn7_a.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\btn7_b.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\about1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\icon1.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap16.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="xDemo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="xDemoDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="xDemoView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgMain.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ChartClass\ChartAxis.h">
+      <Filter>Util\ChartClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ChartClass\ChartAxisLabel.h">
+      <Filter>Util\ChartClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ChartClass\ChartBalloonLabel.h">
+      <Filter>Util\ChartClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ChartClass\ChartBarSerie.h">
+      <Filter>Util\ChartClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ChartClass\ChartCandlestickSerie.h">
+      <Filter>Util\ChartClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ChartClass\ChartCrossHairCursor.h">
+      <Filter>Util\ChartClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ChartClass\ChartCtrl.h">
+      <Filter>Util\ChartClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ChartClass\ChartCursor.h">
+      <Filter>Util\ChartClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ChartClass\ChartDateTimeAxis.h">
+      <Filter>Util\ChartClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ChartClass\ChartDragLineCursor.h">
+      <Filter>Util\ChartClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ChartClass\ChartFont.h">
+      <Filter>Util\ChartClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ChartClass\ChartGanttSerie.h">
+      <Filter>Util\ChartClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ChartClass\ChartGradient.h">
+      <Filter>Util\ChartClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ChartClass\ChartGrid.h">
+      <Filter>Util\ChartClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ChartClass\ChartLabel.h">
+      <Filter>Util\ChartClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ChartClass\ChartLegend.h">
+      <Filter>Util\ChartClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ChartClass\ChartLineSerie.h">
+      <Filter>Util\ChartClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ChartClass\ChartLogarithmicAxis.h">
+      <Filter>Util\ChartClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ChartClass\ChartMouseListener.h">
+      <Filter>Util\ChartClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ChartClass\ChartPointsArray.h">
+      <Filter>Util\ChartClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ChartClass\ChartPointsSerie.h">
+      <Filter>Util\ChartClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ChartClass\ChartScrollBar.h">
+      <Filter>Util\ChartClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ChartClass\ChartSerie.h">
+      <Filter>Util\ChartClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ChartClass\ChartSerieBase.h">
+      <Filter>Util\ChartClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ChartClass\ChartSeriesMouseListener.h">
+      <Filter>Util\ChartClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ChartClass\ChartStandardAxis.h">
+      <Filter>Util\ChartClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ChartClass\ChartString.h">
+      <Filter>Util\ChartClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ChartClass\ChartSurfaceSerie.h">
+      <Filter>Util\ChartClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ChartClass\ChartTitle.h">
+      <Filter>Util\ChartClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ChartClass\ChartXYSerie.h">
+      <Filter>Util\ChartClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ChartClass\PointsOrdering.h">
+      <Filter>Util\ChartClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\CpuUsage\CpuCounterInfo.h">
+      <Filter>Util\CpuUsage</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\CpuUsage\CpuLog.h">
+      <Filter>Util\CpuUsage</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\CpuUsage\CpuQuery.h">
+      <Filter>Util\CpuUsage</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\MyCpuStatus.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\DJWStatic.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgMonitor.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgLogin.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\DBWindow.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\RkUtil\Global_Define.h">
+      <Filter>Util\RkUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\RkUtil\RKGUI_DrawImage.h">
+      <Filter>Util\RkUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\RkUtil\RKGUI_System.h">
+      <Filter>Util\RkUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\RkUtil\RKGUI_Typedef.h">
+      <Filter>Util\RkUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\RkUtil\SendingQueue.h">
+      <Filter>Util\RkUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\RkUtil\TransProtocol.h">
+      <Filter>Util\RkUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\RkUtil.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLAPI\include\db2API.h">
+      <Filter>Util\SQLAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLAPI\include\ibAPI.h">
+      <Filter>Util\SQLAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLAPI\include\infAPI.h">
+      <Filter>Util\SQLAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLAPI\include\myAPI.h">
+      <Filter>Util\SQLAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLAPI\include\odbcAPI.h">
+      <Filter>Util\SQLAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLAPI\include\ora7API.h">
+      <Filter>Util\SQLAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLAPI\include\oraAPI.h">
+      <Filter>Util\SQLAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLAPI\include\pgAPI.h">
+      <Filter>Util\SQLAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLAPI\include\samisc.h">
+      <Filter>Util\SQLAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLAPI\include\sbAPI.h">
+      <Filter>Util\SQLAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLAPI\include\sl3API.h">
+      <Filter>Util\SQLAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLAPI\include\SQLAPI.h">
+      <Filter>Util\SQLAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLAPI\include\ss6API.h">
+      <Filter>Util\SQLAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLAPI\include\ssNcliAPI.h">
+      <Filter>Util\SQLAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLAPI\include\ssOleDbAPI.h">
+      <Filter>Util\SQLAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLAPI\include\sybAPI.h">
+      <Filter>Util\SQLAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="RKAPI\BufferQueue.h">
+      <Filter>Util\RKAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="RKAPI\GlobalDef.h">
+      <Filter>Util\RKAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="RKAPI\RopeokServer.h">
+      <Filter>Util\RKAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="RKAPI\RopeokTrans.h">
+      <Filter>Util\RKAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="AFDAPI\AFD_ReaderComm.h">
+      <Filter>Util\AFDAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXML\tinystr.h">
+      <Filter>Util\TinyXml</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXML\tinyxml.h">
+      <Filter>Util\TinyXml</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\MySqlCon.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\MyWatchDog.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic\DataBaseOperater.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic\ListAdapter.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic\RfServece.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic\RfServiceClientTest.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic\ServerParameters.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="RF_Code\AFD_RF_API.h">
+      <Filter>Rfid</Filter>
+    </ClInclude>
+    <ClInclude Include="RF_Code\FileRoW.h">
+      <Filter>Rfid</Filter>
+    </ClInclude>
+    <ClInclude Include="RF_Code\RF_Algorithm.h">
+      <Filter>Rfid</Filter>
+    </ClInclude>
+    <ClInclude Include="RF_Code\RF_Ant125Manager.h">
+      <Filter>Rfid</Filter>
+    </ClInclude>
+    <ClInclude Include="RF_Code\RF_Array.h">
+      <Filter>Rfid</Filter>
+    </ClInclude>
+    <ClInclude Include="RF_Code\RF_Constant.h">
+      <Filter>Rfid</Filter>
+    </ClInclude>
+    <ClInclude Include="RF_Code\RF_Device.h">
+      <Filter>Rfid</Filter>
+    </ClInclude>
+    <ClInclude Include="RF_Code\RF_LineRegion.h">
+      <Filter>Rfid</Filter>
+    </ClInclude>
+    <ClInclude Include="RF_Code\RF_Math.h">
+      <Filter>Rfid</Filter>
+    </ClInclude>
+    <ClInclude Include="RF_Code\RF_MirrorRectRegion.h">
+      <Filter>Rfid</Filter>
+    </ClInclude>
+    <ClInclude Include="RF_Code\RF_NetTransmit.h">
+      <Filter>Rfid</Filter>
+    </ClInclude>
+    <ClInclude Include="RF_Code\RF_PointRegion.h">
+      <Filter>Rfid</Filter>
+    </ClInclude>
+    <ClInclude Include="RF_Code\RF_Position_API_v2.h">
+      <Filter>Rfid</Filter>
+    </ClInclude>
+    <ClInclude Include="RF_Code\RF_Position_API2_v2.h">
+      <Filter>Rfid</Filter>
+    </ClInclude>
+    <ClInclude Include="RF_Code\RF_Positon.h">
+      <Filter>Rfid</Filter>
+    </ClInclude>
+    <ClInclude Include="RF_Code\RF_RectRegion.h">
+      <Filter>Rfid</Filter>
+    </ClInclude>
+    <ClInclude Include="RF_Code\RF_Region.h">
+      <Filter>Rfid</Filter>
+    </ClInclude>
+    <ClInclude Include="RF_Code\RF_RegionBase .h">
+      <Filter>Rfid</Filter>
+    </ClInclude>
+    <ClInclude Include="RF_Code\RF_RegionFactory.h">
+      <Filter>Rfid</Filter>
+    </ClInclude>
+    <ClInclude Include="RF_Code\RF_TagManager.h">
+      <Filter>Rfid</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic\DlgTray.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgDataBaseInfo.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgRfExportInfo.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgRfSignalInfo.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgRfImportInfo.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgRfAlgInfo.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgLogInfo.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg\DlgSetting.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic\MainService.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\PictureEx.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\MyGifPicture.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\xService\code\include\x_boost.h">
+      <Filter>Util\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="..\xService\code\include\x_container.h">
+      <Filter>Util\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="..\xService\code\include\x_dummy.h">
+      <Filter>Util\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="..\xService\code\include\x_thread.h">
+      <Filter>Util\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="..\xService\code\include\x_util.h">
+      <Filter>Util\Door</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="xDemo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="xDemoDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="xDemoView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgMain.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ChartClass\ChartAxis.cpp">
+      <Filter>Util\ChartClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ChartClass\ChartAxisLabel.cpp">
+      <Filter>Util\ChartClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ChartClass\ChartBarSerie.cpp">
+      <Filter>Util\ChartClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ChartClass\ChartCandlestickSerie.cpp">
+      <Filter>Util\ChartClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ChartClass\ChartCrossHairCursor.cpp">
+      <Filter>Util\ChartClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ChartClass\ChartCtrl.cpp">
+      <Filter>Util\ChartClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ChartClass\ChartCursor.cpp">
+      <Filter>Util\ChartClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ChartClass\ChartDateTimeAxis.cpp">
+      <Filter>Util\ChartClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ChartClass\ChartDragLineCursor.cpp">
+      <Filter>Util\ChartClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ChartClass\ChartFont.cpp">
+      <Filter>Util\ChartClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ChartClass\ChartGanttSerie.cpp">
+      <Filter>Util\ChartClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ChartClass\ChartGradient.cpp">
+      <Filter>Util\ChartClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ChartClass\ChartGrid.cpp">
+      <Filter>Util\ChartClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ChartClass\ChartLegend.cpp">
+      <Filter>Util\ChartClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ChartClass\ChartLineSerie.cpp">
+      <Filter>Util\ChartClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ChartClass\ChartLogarithmicAxis.cpp">
+      <Filter>Util\ChartClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ChartClass\ChartPointsSerie.cpp">
+      <Filter>Util\ChartClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ChartClass\ChartScrollBar.cpp">
+      <Filter>Util\ChartClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ChartClass\ChartSerie.cpp">
+      <Filter>Util\ChartClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ChartClass\ChartStandardAxis.cpp">
+      <Filter>Util\ChartClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ChartClass\ChartSurfaceSerie.cpp">
+      <Filter>Util\ChartClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ChartClass\ChartTitle.cpp">
+      <Filter>Util\ChartClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ChartClass\ChartXYSerie.cpp">
+      <Filter>Util\ChartClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\CpuUsage\CpuQuery.cpp">
+      <Filter>Util\CpuUsage</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\MyCpuStatus.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\DJWStatic.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgMonitor.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgLogin.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\DBWindow.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\RkUtil\Global_Define.cpp">
+      <Filter>Util\RkUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\RkUtil\RKGUI_DrawImage.cpp">
+      <Filter>Util\RkUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\RkUtil\RKGUI_System.c">
+      <Filter>Util\RkUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\RkUtil\SendingQueue.cpp">
+      <Filter>Util\RkUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinystr.cpp">
+      <Filter>Util\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxml.cpp">
+      <Filter>Util\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlerror.cpp">
+      <Filter>Util\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlparser.cpp">
+      <Filter>Util\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\MySqlCon.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\MyWatchDog.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\DataBaseOperater.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\ListAdapter.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\RfServece.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\RfServiceClientTest.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\ServerParameters.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="RF_Code\AFD_RF_API.cpp">
+      <Filter>Rfid</Filter>
+    </ClCompile>
+    <ClCompile Include="RF_Code\FileRoW.cpp">
+      <Filter>Rfid</Filter>
+    </ClCompile>
+    <ClCompile Include="RF_Code\RF_Algorithm.cpp">
+      <Filter>Rfid</Filter>
+    </ClCompile>
+    <ClCompile Include="RF_Code\RF_Ant125Manager.cpp">
+      <Filter>Rfid</Filter>
+    </ClCompile>
+    <ClCompile Include="RF_Code\RF_Array.cpp">
+      <Filter>Rfid</Filter>
+    </ClCompile>
+    <ClCompile Include="RF_Code\RF_Constant.cpp">
+      <Filter>Rfid</Filter>
+    </ClCompile>
+    <ClCompile Include="RF_Code\RF_Device.cpp">
+      <Filter>Rfid</Filter>
+    </ClCompile>
+    <ClCompile Include="RF_Code\RF_LineRegion.cpp">
+      <Filter>Rfid</Filter>
+    </ClCompile>
+    <ClCompile Include="RF_Code\RF_Math.cpp">
+      <Filter>Rfid</Filter>
+    </ClCompile>
+    <ClCompile Include="RF_Code\RF_MirrorRectRegion.cpp">
+      <Filter>Rfid</Filter>
+    </ClCompile>
+    <ClCompile Include="RF_Code\RF_NetTransmit.cpp">
+      <Filter>Rfid</Filter>
+    </ClCompile>
+    <ClCompile Include="RF_Code\RF_PointRegion.cpp">
+      <Filter>Rfid</Filter>
+    </ClCompile>
+    <ClCompile Include="RF_Code\RF_Position_API_v2.cpp">
+      <Filter>Rfid</Filter>
+    </ClCompile>
+    <ClCompile Include="RF_Code\RF_Positon.cpp">
+      <Filter>Rfid</Filter>
+    </ClCompile>
+    <ClCompile Include="RF_Code\RF_RectRegion.cpp">
+      <Filter>Rfid</Filter>
+    </ClCompile>
+    <ClCompile Include="RF_Code\RF_Region.cpp">
+      <Filter>Rfid</Filter>
+    </ClCompile>
+    <ClCompile Include="RF_Code\RF_RegionBase.cpp">
+      <Filter>Rfid</Filter>
+    </ClCompile>
+    <ClCompile Include="RF_Code\RF_RegionFactory.cpp">
+      <Filter>Rfid</Filter>
+    </ClCompile>
+    <ClCompile Include="RF_Code\RF_TagManager.cpp">
+      <Filter>Rfid</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\DlgTray.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgDataBaseInfo.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgRfExportInfo.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgRfSignalInfo.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgRfImportInfo.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgRfAlgInfo.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgLogInfo.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg\DlgSetting.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\MainService.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\PictureEx.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\MyGifPicture.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="xDemo.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

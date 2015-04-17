@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CLock" Collapsed="true">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAEQAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>code\x_service_door_thread.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAutoLock" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAIAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_door_thread.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRoundThread" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQFAAAQAAAAAAAECQAggAEAAAgQAAhAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_door_thread.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CThreadCreater" Collapsed="true">
+    <Position X="13.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQIAAAAAAAAAAIAQIAgAEAAAAQBAgAAAABAAAAA=</HashCode>
+      <FileName>code\x_service_door_thread.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CThreadPool" Collapsed="true">
+    <Position X="15" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_door_thread.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CThreadThreadEx" Collapsed="true">
+    <Position X="8" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_door_thread.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTask" Collapsed="true">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_door_thread.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMessageTask" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_door_thread.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTimeTask" Collapsed="true">
+    <Position X="11.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_door_thread.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEventTask" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_door_thread.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTimeEventTask" Collapsed="true">
+    <Position X="9.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_door_thread.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTaskEngine" Collapsed="true">
+    <Position X="11.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_door_thread.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRoundTaskEngine" Collapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_door_thread.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRoundTaskEngineEx" Collapsed="true">
+    <Position X="15" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_door_thread.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTimeTaskEngine" Collapsed="true">
+    <Position X="13.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_door_thread.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEventEngine" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_door_thread.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSynEventEngine" Collapsed="true">
+    <Position X="8" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_door_thread.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGroupEngine" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_door_thread.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPrint" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_door_util.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Container" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAgAAEAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>code\x_service_door_container.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ContainerIter" Collapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAQAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_door_container.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CValueSet&lt;_Value&gt;" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMAAAAAAAAAgAAAAAAICAAAAAAAAAAAAAEAAABAAAA=</HashCode>
+      <FileName>code\x_service_door_container.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CValueHashMap&lt;_Key, _Value&gt;" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQSAGAAAAAAgAAAAAAACAAAAAAIAAAAAIAAAABAAAA=</HashCode>
+      <FileName>code\x_service_door_container.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTestThraed1" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_thread.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTestThraed2" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_thread.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLogFile" Collapsed="true">
+    <Position X="8" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIABAAgAIAAAAAAAAAACAAAAAAACAgAA=</HashCode>
+      <FileName>code\x_service_util.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPrintImpl" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_util.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="S8_T" Collapsed="true">
+    <Position X="13.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_door.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="U8_T" Collapsed="true">
+    <Position X="15" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_door.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="S16_T" Collapsed="true">
+    <Position X="8" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_door.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="U16_T" Collapsed="true">
+    <Position X="9.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_door.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="S32_T" Collapsed="true">
+    <Position X="9.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_door.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="U32_T" Collapsed="true">
+    <Position X="11.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_door.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="S64_T" Collapsed="true">
+    <Position X="11.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_door.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="U64_T" Collapsed="true">
+    <Position X="13.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_door.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CHAR_T" Collapsed="true">
+    <Position X="9.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_door.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="BOOL_T" Collapsed="true">
+    <Position X="8" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_door.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TIME_T" Collapsed="true">
+    <Position X="8" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_door.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="VOID_T" Collapsed="true">
+    <Position X="8" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_door.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ERR_T" Collapsed="true">
+    <Position X="11.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_door.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TaskFunc_T" Collapsed="true">
+    <Position X="15" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_door_thread.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PTaskFunc_T" Collapsed="true">
+    <Position X="13.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_thread.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PTaskFunc2_T" Collapsed="true">
+    <Position X="15" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>code\x_service_thread.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="E_LOG_LEVEL" Collapsed="true">
+    <Position X="8" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAQAAAAAAAAAAAAAAACAAABAAAAAAA=</HashCode>
+      <FileName>code\x_service_door_util.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei" Size="9" />
+</ClassDiagram>

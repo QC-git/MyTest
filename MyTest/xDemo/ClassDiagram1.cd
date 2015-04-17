@@ -1,0 +1,1565 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CChartAxis" Collapsed="true">
+    <Position X="26" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QGkgLIKiUrhpMwAsBiKCELyRgMgMClchEtTKCQAIQSE=</HashCode>
+      <FileName>Util\ChartClass\ChartAxis.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartBalloonLabel&lt;PointType&gt;" Collapsed="true">
+    <Position X="13.5" Y="26.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>QAAEAAEAIMBgAgAAACAAAACAEgAwAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Util\ChartClass\ChartBalloonLabel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartBarSerie" Collapsed="true">
+    <Position X="19.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAEMDChAQCJAAgBEABAwAAEAYgEkZIgABAAhAgQIAAg=</HashCode>
+      <FileName>Util\ChartClass\ChartBarSerie.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartCandlestickSerie" Collapsed="true">
+    <Position X="15" Y="18.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAEgAQAgAAAAAwBAAQABEgCAAAAAAACEAAAAQ=</HashCode>
+      <FileName>Util\ChartClass\ChartCandlestickSerie.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartCrossHairCursor" Collapsed="true">
+    <Position X="2.5" Y="25.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQCgEAAJAAAAAAABAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\ChartClass\ChartCrossHairCursor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartCursor" Collapsed="true">
+    <Position X="3.75" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgIABAAAAAAAggAAAAAgAAAAABAAggAACggAACAIAAA=</HashCode>
+      <FileName>Util\ChartClass\ChartCursor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartDateTimeAxis" Collapsed="true">
+    <Position X="26" Y="12.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QgAgAAIAgISAABAACEAAAAAQAAACAAAAQACIAgAIgSA=</HashCode>
+      <FileName>Util\ChartClass\ChartDateTimeAxis.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartDragLineCursor" Collapsed="true">
+    <Position X="4.75" Y="25.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAACAAQAAgAAAIAAAAAAABAAIgAAAAAACAAIAAA=</HashCode>
+      <FileName>Util\ChartClass\ChartDragLineCursor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartGanttSerie" Collapsed="true">
+    <Position X="26.25" Y="18.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>CAAMBCgAAAAQAgAAACAgAAAAYgEkQIgABACAAAQAAAg=</HashCode>
+      <FileName>Util\ChartClass\ChartGanttSerie.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartLabel&lt;PointType&gt;" Collapsed="true">
+    <Position X="13.5" Y="25.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEgAAAAAAgIAgAAAAAAAAGAAAAAAgAAIBAyAAAAAQA=</HashCode>
+      <FileName>Util\ChartClass\ChartLabel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartLineSerie" Collapsed="true">
+    <Position X="21.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CogAAAAAIAAAAkAAAAAgAAggAAMAAAAAAAAAAEAAACQ=</HashCode>
+      <FileName>Util\ChartClass\ChartLineSerie.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartLogarithmicAxis" Collapsed="true">
+    <Position X="28.25" Y="12.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAIAAIAAAAAAACAABAAAAAAAABQgAACIAAAIgCA=</HashCode>
+      <FileName>Util\ChartClass\ChartLogarithmicAxis.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartPointsSerie" Collapsed="true">
+    <Position X="24" Y="19.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>CEAAAAAAAEQwggABAAAgAAAAAgFgAAEAAAAAABAAAAA=</HashCode>
+      <FileName>Util\ChartClass\ChartPointsSerie.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartSerie" Collapsed="true">
+    <Position X="20.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgEMAgABEAMJkgAISIQhCABQAAEiwgKEEAggQAgMBAE=</HashCode>
+      <FileName>Util\ChartClass\ChartSerie.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartSerieBase&lt;T&gt;" Collapsed="true">
+    <Position X="20.5" Y="16.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAgEIgAQkgARCAAAAEAAAgAQAAACgAAAhBIkCAgIAAA=</HashCode>
+      <FileName>Util\ChartClass\ChartSerieBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartStandardAxis" Collapsed="true">
+    <Position X="23.75" Y="12.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAIAAIwAAAAACAAAAAAIAAAAAARAAACIAAAIgCA=</HashCode>
+      <FileName>Util\ChartClass\ChartStandardAxis.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartSurfaceSerie" Collapsed="true">
+    <Position X="17.25" Y="19.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>CAgAAABAAAJCAgAEAAAgAAAAAAEAAAIAACAAAAAAAAA=</HashCode>
+      <FileName>Util\ChartClass\ChartSurfaceSerie.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChartXYSerie" Collapsed="true">
+    <Position X="20.5" Y="18.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAgCQAAgAQgIEAAAAAAAAAAAAgAAAAQAiAIA=</HashCode>
+      <FileName>Util\ChartClass\ChartXYSerie.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CpuQuery" Collapsed="true">
+    <Position X="10.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAIAAAAAAAAAAAkAAAAAAAAAaAAAARQA=</HashCode>
+      <FileName>Util\CpuUsage\CpuQuery.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CpuQueryEx" Collapsed="true">
+    <Position X="10.5" Y="26.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Util\CpuUsage\CpuQuery.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRKDrawImageBase" Collapsed="true">
+    <Position X="27.5" Y="45.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAMAIAgABAACAAAAACAQAEAEAAJAAEAAAAAAIAAAAQg=</HashCode>
+      <FileName>Util\RkUtil\RKGUI_DrawImage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRopeokServer" Collapsed="true">
+    <Position X="22.5" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIABAAAAAAAAAgAUAAAIEAAAAAAgABAAAAEAIIAQBgg=</HashCode>
+      <FileName>RKAPI\RopeokServer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRopeokTrans" Collapsed="true">
+    <Position X="22.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CoAAiAAQAAgGQQhhlAQIEAAiAARhAFIACAABNJCAAAw=</HashCode>
+      <FileName>RKAPI\RopeokTrans.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="db2API" Collapsed="true">
+    <Position X="26.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GAGIACEmkBVkAJcAAGxAyAgAFSQMkD2UUQJFUjwoN0w=</HashCode>
+      <FileName>SQLAPI\include\db2API.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="db2ConnectionHandles" Collapsed="true">
+    <Position X="26.25" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAEAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\db2API.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ibAPI" Collapsed="true">
+    <Position X="28.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>TECKYQsAwhUQxqBE6ApsCDJADeaEDmBFR1QuriifQOw=</HashCode>
+      <FileName>SQLAPI\include\ibAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ibConnectionHandles" Collapsed="true">
+    <Position X="28.5" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgACAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\ibAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="infAPI" Collapsed="true">
+    <Position X="33" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>WIGIACEmkBVEAJcAAHRAyAgABSQMgD2QUQJBUjwIN0w=</HashCode>
+      <FileName>SQLAPI\include\infAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="infConnectionHandles" Collapsed="true">
+    <Position X="33" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAIAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\infAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="myAPI" Collapsed="true">
+    <Position X="6" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SozEU0ECgsERAkhkgBJE6kUEIbXAAi0IoA4JmHIYAoE=</HashCode>
+      <FileName>SQLAPI\include\myAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="myConnectionHandles" Collapsed="true">
+    <Position X="3.75" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\myAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="odbcAPI" Collapsed="true">
+    <Position X="10.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>WIGIACEmkBVEAJcAAGRAyAgABSQMgD2QUQJBUjwIN0w=</HashCode>
+      <FileName>SQLAPI\include\odbcAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="odbcConnectionHandles" Collapsed="true">
+    <Position X="10.5" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAEAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\odbcAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ora7API" Collapsed="true">
+    <Position X="19.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RABIAAAgAbNEiEBgAADJzSBAEAAIIAAAAARAEAgQBAA=</HashCode>
+      <FileName>SQLAPI\include\ora7API.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ora7ConnectionHandles" Collapsed="true">
+    <Position X="19.5" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\ora7API.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ora8API" Collapsed="true">
+    <Position X="21.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QTIQUAYB00AIwEjEUDAiIcwUJXBQRLCHIQkWKWAgPQQ=</HashCode>
+      <FileName>SQLAPI\include\oraAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ora8ConnectionHandles" Collapsed="true">
+    <Position X="21.75" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEEAAAAghAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>SQLAPI\include\oraAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pgAPI" Collapsed="true">
+    <Position X="30.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BSJSUjoVl1DSBgXiIASDAKGQBopAhcCgs0EQUQOYhaI=</HashCode>
+      <FileName>SQLAPI\include\pgAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pgConnectionHandles" Collapsed="true">
+    <Position X="30.75" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\pgAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SAMutex" Collapsed="true">
+    <Position X="7.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAACAQAACAAACAAAAAAAAQAAAAAAACAABAIAAA=</HashCode>
+      <FileName>SQLAPI\include\samisc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sb6API" Collapsed="true">
+    <Position X="3.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>mAJiupSaxAbqh7JtACiACBBEoAECaEDkt8DpAB4A+wI=</HashCode>
+      <FileName>SQLAPI\include\sbAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sb7API" Collapsed="true">
+    <Position X="3.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAgAUAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\sbAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sb6ConnectionHandles" Collapsed="true">
+    <Position X="6" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\sbAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sb7ConnectionHandles" Collapsed="true">
+    <Position X="6" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>SQLAPI\include\sbAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sl3API" Collapsed="true">
+    <Position X="17.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIyCDgBQAoDACGAgTCQAoMAACAQcEACJAAAQAAABwEQ=</HashCode>
+      <FileName>SQLAPI\include\sl3API.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sl3ConnectionHandles" Collapsed="true">
+    <Position X="17.25" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\sl3API.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="saAPI" Collapsed="true">
+    <Position X="18.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>SQLAPI\include\SQLAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="saConnectionHandles" Collapsed="true">
+    <Position X="18.5" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>SQLAPI\include\SQLAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SAString" Collapsed="true">
+    <Position X="7.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACTCkMAB2CCQIJgEFAMIAQIAIDs4YrDAGEDiCBAAACI=</HashCode>
+      <FileName>SQLAPI\include\SQLAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SAValueRead" Collapsed="true">
+    <Position X="24.75" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIGyCgoFgAIAwCaMSqmMAJSkAAEAEgQIABAiCQABQGA=</HashCode>
+      <FileName>SQLAPI\include\SQLAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SAValue" Collapsed="true">
+    <Position X="25.75" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAgAAgohALEgEASkAAAAgAIgAAIBAIQAAACAEACAAAA=</HashCode>
+      <FileName>SQLAPI\include\SQLAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SAParam" Collapsed="true">
+    <Position X="25.75" Y="24.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAFAAAMAAAAAALSQcARBEeIBAAAAgAASAAAA=</HashCode>
+      <FileName>SQLAPI\include\SQLAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SABytes" Collapsed="true">
+    <Position X="11.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\SQLAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SALongOrLob" Collapsed="true">
+    <Position X="6.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAEAAAAEIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\SQLAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SALongBinary" Collapsed="true">
+    <Position X="2.75" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\SQLAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SALongChar" Collapsed="true">
+    <Position X="5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\SQLAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SABLob" Collapsed="true">
+    <Position X="7.25" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\SQLAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SACLob" Collapsed="true">
+    <Position X="9.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\SQLAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SAField" Collapsed="true">
+    <Position X="23.5" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUABABBBEABAEAAAAIgDAQIBUCAAISAAAAgkBAQAAA=</HashCode>
+      <FileName>SQLAPI\include\SQLAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SAException" Collapsed="true">
+    <Position X="19.5" Y="24.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQABANAAAAAAAAAABAAAAAAAUAACAAAAAEEAAAA=</HashCode>
+      <FileName>SQLAPI\include\SQLAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SAUserException" Collapsed="true">
+    <Position X="19.5" Y="26" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\SQLAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ssAPI" Collapsed="true">
+    <Position X="24" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JbMUGANqXeOa3IB5xzXAm+jhUFcWUhSZ3nbkqyboKoM=</HashCode>
+      <FileName>SQLAPI\include\ss6API.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ssConnectionHandles" Collapsed="true">
+    <Position X="24" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\ss6API.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ssNCliAPI" Collapsed="true">
+    <Position X="8.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>WIBACASAANUAABcAAGZAyQoAjQAEgi2UUIIA0AQoMWQ=</HashCode>
+      <FileName>SQLAPI\include\ssNcliAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ssNCliConnectionHandles" Collapsed="true">
+    <Position X="8.25" Y="5.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAIAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\ssNcliAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ssOleDbAPI" Collapsed="true">
+    <Position X="12.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\ssOleDbAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ssOleDbConnectionHandles" Collapsed="true">
+    <Position X="12.75" Y="5.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAgAAAACAAAIAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>SQLAPI\include\ssOleDbAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SASybErrInfo" Collapsed="true">
+    <Position X="7.5" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAACgAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>SQLAPI\include\sybAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sybAPI" Collapsed="true">
+    <Position X="15" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABEZhgIgLDABBMCjCKgTC0hUQUJASIYYCAmBAMEgBaE=</HashCode>
+      <FileName>SQLAPI\include\sybAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sybConnectionHandles" Collapsed="true">
+    <Position X="15" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAEAEAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\sybAPI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlString" Collapsed="true">
+    <Position X="17.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAIAAAAEAAAlAsICAQACAAEAAIIAiQExCAABAAA=</HashCode>
+      <FileName>TinyXML\tinystr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlOutStream" Collapsed="true">
+    <Position X="17.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TinyXML\tinystr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlVisitor" Collapsed="true">
+    <Position X="2.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAQAAAAAAAAAAAAAIAAAAAAAAAAAgAA=</HashCode>
+      <FileName>TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlBase" Collapsed="true">
+    <Position X="13.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JAgggBQAEAgEAAAQAgBhABASADAQAiAIAAAiAAAkAAA=</HashCode>
+      <FileName>TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlNode" Collapsed="true">
+    <Position X="12.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAgAAAIAEAEiiBAhEAAYQAEAAqBgCECAYtgAAtAIDA=</HashCode>
+      <FileName>TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlAttribute" Collapsed="true">
+    <Position X="20.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQggAAAgAAQggAEAABAAQQAAAIEAGQAAABgQAIEEAA=</HashCode>
+      <FileName>TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlElement" Collapsed="true">
+    <Position X="7" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAACACAAAJAAAAIIEAgQCAAA0BCBAgAAAEIFE=</HashCode>
+      <FileName>TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlComment" Collapsed="true">
+    <Position X="9.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAIAAAAAAAAAAAAAAAQAAAAAAAAEIAAAgAAAEIBA=</HashCode>
+      <FileName>TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlText" Collapsed="true">
+    <Position X="11.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAgAAAABAAAAAAAAEAAAABAAAABgAEAAAAgAAAEIBQ=</HashCode>
+      <FileName>TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlDeclaration" Collapsed="true">
+    <Position X="13.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIAgACCAAAQAAAAAAAAAAAAAgAAAAIEAAAIoAAAEKBA=</HashCode>
+      <FileName>TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlUnknown" Collapsed="true">
+    <Position X="16" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAAEAAAAAAAAAAAAACAAAAAAEAAAAgAIAEIBA=</HashCode>
+      <FileName>TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlDocument" Collapsed="true">
+    <Position X="18.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAABBAQAQABAgEICAAAAAEQBAEBFAAgAEgUJBA=</HashCode>
+      <FileName>TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlPrinter" Collapsed="true">
+    <Position X="2.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAEABEhAQgBAAQAAAAMAAAAAAAAABQIBQAwAA=</HashCode>
+      <FileName>TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataBase_RW" Collapsed="true">
+    <Position X="24.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgQAAABAAAAAAAAGAABAAAEAAAACAAAAA=</HashCode>
+      <FileName>Logic\ServerParameters.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RfReader_RW" Collapsed="true">
+    <Position X="23.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAICEAACAAEAAAAGAABAA=</HashCode>
+      <FileName>Logic\ServerParameters.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RfRegion_RW" Collapsed="true">
+    <Position X="25.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAAAwAAAAAAEBAAAAAAAAAAQAAEIAAAGAABAA=</HashCode>
+      <FileName>Logic\ServerParameters.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSingelThread" Collapsed="true">
+    <Position X="16.75" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAACAAggABABAgQAAAAABCBAECAA=</HashCode>
+      <FileName>RF_Code\RF_Constant.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MDoubleThread" Collapsed="true">
+    <Position X="12.5" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAgAAAQACAIQCAIIAEAAAAAAAAAAABCQMJAAA=</HashCode>
+      <FileName>RF_Code\RF_Constant.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RF_CDataPool" Collapsed="true">
+    <Position X="20.75" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABCAEACABAAAAAAIAEACCCQABAEAAAIACBAGgBBIIA=</HashCode>
+      <FileName>RF_Code\RF_Device.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RF_CReaderManager" Collapsed="true">
+    <Position X="16.75" Y="24.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>JAAAAAABgGAQACNAkgBgG4yRACACAQEEgAABKCAAAGA=</HashCode>
+      <FileName>RF_Code\RF_Device.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRF_LineRegion_M" Collapsed="true">
+    <Position X="6" Y="22.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAgAgAAAAEAAAAJCAAAIQAQAABAIACEAAAAAAACCAAA=</HashCode>
+      <FileName>RF_Code\RF_LineRegion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRF_MirrorRectRegion" Collapsed="true">
+    <Position X="3" Y="20.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAkAgBAAgACAIIAGSAAAQCAAABAIAAAAACQAAACAAAg=</HashCode>
+      <FileName>RF_Code\RF_MirrorRectRegion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTCP_ServerToListen_M" Collapsed="true">
+    <Position X="15.5" Y="22.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQAACAABAAgAAgCACACAAgAAABAIABCAAAAhACAASgA=</HashCode>
+      <FileName>RF_Code\RF_NetTransmit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTCP_Client_M" Collapsed="true">
+    <Position X="17.75" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYAACAACAAAAAAAAEACAAgAAAAAAABAAAAABQQAACAA=</HashCode>
+      <FileName>RF_Code\RF_NetTransmit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRF_PointRegion_M" Collapsed="true">
+    <Position X="12.75" Y="20.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>YBgAgAEAAAAAAAAAAAAAQAQAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>RF_Code\RF_PointRegion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RF_CAlgManager" Collapsed="true">
+    <Position X="12.5" Y="24.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DQFABIIgAAGAAQBAEBggIEwISCAAhQAAABERDhAQQAI=</HashCode>
+      <FileName>RF_Code\RF_Positon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRF_RectRegion_M" Collapsed="true">
+    <Position X="6" Y="20.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAkAgBAAIACAIIAGCAAAQCAAABAIAAAAAAQAAACAAAg=</HashCode>
+      <FileName>RF_Code\RF_RectRegion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RF_CRegionBase" Collapsed="true">
+    <Position X="6" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IEgAgAQAIAAAIoAAAAAAwAAIAAAAAAQgAAEAAAIAgAA=</HashCode>
+      <FileName>RF_Code\RF_Region.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RF_CRegionDefaultParameters" Collapsed="true">
+    <Position X="29" Y="18" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RF_Code\RF_Region.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RF_CRectRDP" Collapsed="true">
+    <Position X="29" Y="19.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEABAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>RF_Code\RF_Region.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RF_CLineRDP" Collapsed="true">
+    <Position X="9" Y="21.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAACACAAAAAAAAAAA=</HashCode>
+      <FileName>RF_Code\RF_Region.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRF_TagManager_M" Collapsed="true">
+    <Position X="9.5" Y="23" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>MAACABAAAAAoBAAAAAAAAAAGAABIAAAQAAAAACCAEAA=</HashCode>
+      <FileName>RF_Code\RF_TagManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="__unnamed_struct_0943_2" Collapsed="true">
+    <Position X="44.5" Y="41.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\RKGUI_System.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0943_3" Collapsed="true">
+    <Position X="39.5" Y="43.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAoAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\RKGUI_System.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_SYSTEM_PROCESSOR_PERFORMANCE_INFORMATION" Collapsed="true">
+    <Position X="44.5" Y="36.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAABAAQAAAADAIAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\RKGUI_System.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_m_PROCESSORS_USE_TIME" Collapsed="true">
+    <Position X="44.5" Y="33.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAEAAQEQ=</HashCode>
+      <FileName>Util\RkUtil\RKGUI_System.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tagTPData" Collapsed="true">
+    <Position X="23.5" Y="36.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAICAAA=</HashCode>
+      <FileName>Util\RkUtil\RKGUI_System.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tagDDB_FileConfig" Collapsed="true">
+    <Position X="37.5" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\RKGUI_System.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tagRKGUI_AllDisk_st" Collapsed="true">
+    <Position X="36.5" Y="34.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\RKGUI_System.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tagTRANSINITIAL_REQUEST" Collapsed="true">
+    <Position X="35.5" Y="22.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAIAAAk=</HashCode>
+      <FileName>Util\RkUtil\TransProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tagTRANSINITIAL_RESPOND" Collapsed="true">
+    <Position X="35.5" Y="17.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAABAAAAAAAEAAAAIAAAk=</HashCode>
+      <FileName>Util\RkUtil\TransProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tagHEART_PACKAGE" Collapsed="true">
+    <Position X="7.5" Y="34.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAABAAAAAAAEAAAAIAAAk=</HashCode>
+      <FileName>Util\RkUtil\TransProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tagObjInfo" Collapsed="true">
+    <Position X="34.5" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAABgAAAAAAIAAAAAAAAABAAgEAAAAAAAAKgAE=</HashCode>
+      <FileName>Util\RkUtil\TransProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tagMovingObjInfo" Collapsed="true">
+    <Position X="28.5" Y="33.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAABgAAAAAAIAAAAAAAAIBAAAMAAEAAAAIKgAk=</HashCode>
+      <FileName>Util\RkUtil\TransProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tagFrameObjs" Collapsed="true">
+    <Position X="19.5" Y="33.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAEAAIAAAAAAAEAAEAIAAAk=</HashCode>
+      <FileName>Util\RkUtil\TransProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tagFrameObjsBuffEx" Collapsed="true">
+    <Position X="15.5" Y="33.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgACAAAAAAAAACAAAAAAEAAIAAAAAAEEAAAAIAAAk=</HashCode>
+      <FileName>Util\RkUtil\TransProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tagCONCHECK" Collapsed="true">
+    <Position X="34.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Util\RkUtil\TransProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tagTestTestInfo" Collapsed="true">
+    <Position X="3.5" Y="33.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAIAAAk=</HashCode>
+      <FileName>Util\RkUtil\TransProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tagTestTest2Info" Collapsed="true">
+    <Position X="30.5" Y="28.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAIAAAk=</HashCode>
+      <FileName>Util\RkUtil\TransProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tagTRANSHEADER" Collapsed="true">
+    <Position X="11.5" Y="29.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAIAAAk=</HashCode>
+      <FileName>RKAPI\RopeokTrans.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tagPARAMTHD" Collapsed="true">
+    <Position X="19.5" Y="43.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>RKAPI\RopeokTrans.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tagTHDINFO" Collapsed="true">
+    <Position X="7.5" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAQAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>RKAPI\RopeokTrans.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="RFID_Packet_t" Collapsed="true">
+    <Position X="31.5" Y="39.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAIAAAAAQAAAAAQAAAAAAgAAAQAAAACAQAAAAAgI=</HashCode>
+      <FileName>AFDAPI\AFD_ReaderComm.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="RFID_PacketEx" Collapsed="true">
+    <Position X="7.5" Y="39.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAIAEQAAAAAAAABAAAAAIACAAABA=</HashCode>
+      <FileName>AFDAPI\AFD_ReaderComm.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CmdPk_s" Collapsed="true">
+    <Position X="27.5" Y="38.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAgAAAAxAAAAAAA=</HashCode>
+      <FileName>AFDAPI\AFD_ReaderComm.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="StrChainTable_Model" Collapsed="true">
+    <Position X="21.5" Y="28.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>RF_Code\FileRoW.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="RF_Tag_AdminInfo_Model" Collapsed="true">
+    <Position X="19.5" Y="38.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EEAAEAAAQACAAAAAAAAAQAEAQAAAAQQBAAAgACAAAAA=</HashCode>
+      <FileName>RF_Code\RF_Position_API2_v2.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="RF_Reader_AdminInfo_Model" Collapsed="true">
+    <Position X="39.5" Y="18.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>IAAABgAAAAAAgAAAAAAAAAAAKAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>RF_Code\RF_Position_API2_v2.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__RF_INFO_TAG" Collapsed="true">
+    <Position X="15.5" Y="38.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBAABAAAEgAAAAAAAAAAAAAAAAAAAQAFAAgAAAABAAA=</HashCode>
+      <FileName>RF_Code\RF_Position_API_v2.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__RF_INFO_READER" Collapsed="true">
+    <Position X="39.5" Y="12.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAEIAA=</HashCode>
+      <FileName>RF_Code\RF_Position_API_v2.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__RF_INFO_READER_IN" Collapsed="true">
+    <Position X="3.5" Y="38.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAKAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>RF_Code\RF_Position_API_v2.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__RF_INFO_REGION_RECT_IN" Collapsed="true">
+    <Position X="17.5" Y="28.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAgAAAAIAQQAAAAAAAAAgAA=</HashCode>
+      <FileName>RF_Code\RF_Position_API_v2.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__RF_INFO_REGION_LINE_IN" Collapsed="true">
+    <Position X="29.5" Y="15.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAEAAAAAAAAAQAAACDAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RF_Code\RF_Position_API_v2.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__RF_INFO_REGION_POINT_IN" Collapsed="true">
+    <Position X="3.5" Y="28.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAIBgAAAAAAA=</HashCode>
+      <FileName>RF_Code\RF_Position_API_v2.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__RF_INFO_REGION" Collapsed="true">
+    <Position X="38.5" Y="27.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RF_Code\RF_Position_API_v2.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__RF_INFO_RSSI" Collapsed="true">
+    <Position X="11.5" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAIAAAAAAAAAEAAAAAACAAIFAAAAAAAAAAI=</HashCode>
+      <FileName>RF_Code\RF_Position_API_v2.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="RegionTagRssiList_Model" Collapsed="true">
+    <Position X="26.5" Y="27.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAICAAAAAAAAAAAAAAAABAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>RF_Code\RF_Positon.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="SYSTEM_PERFORMANCE_INFORMATION" Collapsed="true">
+    <Position X="44.5" Y="43.5" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\RKGUI_System.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SYSTEM_TIME_INFORMATION" Collapsed="true">
+    <Position X="39.5" Y="45.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\RKGUI_System.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SYSTEM_PROCESSOR_PERFORMANCE_INFORMATION" Collapsed="true">
+    <Position X="44.5" Y="38.5" Width="7.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\RKGUI_System.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="m_PROCESSORS_USE_TIME" Collapsed="true">
+    <Position X="44.5" Y="31.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\RKGUI_System.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TPData" Collapsed="true">
+    <Position X="25.5" Y="34.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\RKGUI_System.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PTPData" Collapsed="true">
+    <Position X="23.5" Y="38.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\RKGUI_System.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CRKDrawBase" Collapsed="true">
+    <Position X="27.5" Y="43.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\RKGUI_DrawImage.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DDB_FileConfig" Collapsed="true">
+    <Position X="34.5" Y="7.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\RKGUI_System.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PDDB_FileConfig" Collapsed="true">
+    <Position X="38.5" Y="9.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\RKGUI_System.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RKGUI_AllDisk_st" Collapsed="true">
+    <Position X="37.5" Y="32.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\RKGUI_System.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PRKGUI_AllDisk_st" Collapsed="true">
+    <Position X="36.5" Y="36.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\RKGUI_System.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RKGUI_ushort" Collapsed="true">
+    <Position X="32.5" Y="34.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\RKGUI_Typedef.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RKGUI_wchar_t" Collapsed="true">
+    <Position X="31.5" Y="32.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\RKGUI_Typedef.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RKGUI_tchar" Collapsed="true">
+    <Position X="32.5" Y="36.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\RKGUI_Typedef.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TRANSINITIAL_REQUEST" Collapsed="true">
+    <Position X="32.5" Y="22.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\TransProtocol.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PTRANSINITIAL_REQUEST" Collapsed="true">
+    <Position X="35.5" Y="24.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\TransProtocol.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TRANSINITIAL_RESPOND" Collapsed="true">
+    <Position X="37.5" Y="15.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\TransProtocol.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PTRANSINITIAL_RESPOND" Collapsed="true">
+    <Position X="35.5" Y="19.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\TransProtocol.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="HEART_PACKAGE" Collapsed="true">
+    <Position X="10.5" Y="34.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\TransProtocol.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PHEART_PACKAGE" Collapsed="true">
+    <Position X="7.5" Y="36.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\TransProtocol.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ObjInfo" Collapsed="true">
+    <Position X="34.5" Y="31.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\TransProtocol.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PObjInfo" Collapsed="true">
+    <Position X="34.5" Y="27.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\TransProtocol.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MovingObjInfo" Collapsed="true">
+    <Position X="27.5" Y="31.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\TransProtocol.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PMovingObjInfo" Collapsed="true">
+    <Position X="28.5" Y="35.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\TransProtocol.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="FrameObjs" Collapsed="true">
+    <Position X="22.5" Y="33.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\TransProtocol.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PFrameObjs" Collapsed="true">
+    <Position X="19.5" Y="35.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\TransProtocol.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="FrameObjsBuffEx" Collapsed="true">
+    <Position X="14.5" Y="31.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\TransProtocol.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PFrameObjsBuffEx" Collapsed="true">
+    <Position X="15.5" Y="35.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\TransProtocol.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CONCHECK" Collapsed="true">
+    <Position X="35.5" Y="10.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\TransProtocol.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PCONCHECK" Collapsed="true">
+    <Position X="34.5" Y="14.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\TransProtocol.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TestTestInfo" Collapsed="true">
+    <Position X="0.5" Y="33.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\TransProtocol.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PTestTestInfo" Collapsed="true">
+    <Position X="3.5" Y="35.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\TransProtocol.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TestTest2Info" Collapsed="true">
+    <Position X="31.5" Y="26.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\TransProtocol.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PTestTest2Info" Collapsed="true">
+    <Position X="30.5" Y="30.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RkUtil\TransProtocol.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TRANSHEADER" Collapsed="true">
+    <Position X="14.5" Y="29.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RKAPI\RopeokTrans.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PTRANSHEADER" Collapsed="true">
+    <Position X="11.5" Y="31.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RKAPI\RopeokTrans.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PARAMTHD" Collapsed="true">
+    <Position X="19.5" Y="45.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RKAPI\RopeokTrans.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="THDINFO" Collapsed="true">
+    <Position X="7.5" Y="31.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RKAPI\RopeokTrans.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PTHDINFO" Collapsed="true">
+    <Position X="7.5" Y="27.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RKAPI\RopeokTrans.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SAClient_t" Collapsed="true">
+    <Position X="15.5" Y="45.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\SQLAPI.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SAErrorClass_t" Collapsed="true">
+    <Position X="3.5" Y="45.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\SQLAPI.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SAIsolationLevel_t" Collapsed="true">
+    <Position X="43.5" Y="15.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\SQLAPI.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SAAutoCommit_t" Collapsed="true">
+    <Position X="11.5" Y="44.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\SQLAPI.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SADataType_t" Collapsed="true">
+    <Position X="43.5" Y="12.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\SQLAPI.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SACommandType_t" Collapsed="true">
+    <Position X="42.5" Y="21.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\SQLAPI.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SAParamDirType_t" Collapsed="true">
+    <Position X="23.5" Y="43.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\SQLAPI.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SALongOrLobReaderModes_t" Collapsed="true">
+    <Position X="41.5" Y="28.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\SQLAPI.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SAPieceType_t" Collapsed="true">
+    <Position X="41.5" Y="7.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\SQLAPI.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="USHORT" Collapsed="true">
+    <Position X="40.5" Y="40.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\windef.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPUSHORT" Collapsed="true">
+    <Position X="40.5" Y="38.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\ss6API.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="UINT" Collapsed="true">
+    <Position X="40.5" Y="33.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\windef.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPUINT" Collapsed="true">
+    <Position X="40.5" Y="35.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\ss6API.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPCDBINT" Collapsed="true">
+    <Position X="31.5" Y="24.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\ss6API.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPDBINT" Collapsed="true">
+    <Position X="31.5" Y="20.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\ss6API.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PDBCURSOR" Collapsed="true">
+    <Position X="35.5" Y="41.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\ss6API.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PDBHANDLE" Collapsed="true">
+    <Position X="35.5" Y="39.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\ss6API.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DBINT" Collapsed="true">
+    <Position X="29.5" Y="22.5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\ss6API.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RfPacket" Collapsed="true">
+    <Position X="31.5" Y="41.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AFDAPI\AFD_ReaderComm.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RfPacketEx" Collapsed="true">
+    <Position X="7.5" Y="41.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AFDAPI\AFD_ReaderComm.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CmdPk_t" Collapsed="true">
+    <Position X="27.5" Y="40.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AFDAPI\AFD_ReaderComm.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="StrCT_M" Collapsed="true">
+    <Position X="24.5" Y="31.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RF_Code\FileRoW.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PStrCT_M" Collapsed="true">
+    <Position X="21.5" Y="30.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RF_Code\FileRoW.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RF_Tag_AdminInfo_M" Collapsed="true">
+    <Position X="19.5" Y="40.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RF_Code\RF_Position_API2_v2.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RF_Reader_AdminInfo_M" Collapsed="true">
+    <Position X="39.5" Y="20.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RF_Code\RF_Position_API2_v2.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RF_INFO_TAG" Collapsed="true">
+    <Position X="15.5" Y="40.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RF_Code\RF_Position_API_v2.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RF_INFO_READER" Collapsed="true">
+    <Position X="40.5" Y="14.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RF_Code\RF_Position_API_v2.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RF_INFO_READER_IN" Collapsed="true">
+    <Position X="3.5" Y="40.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RF_Code\RF_Position_API_v2.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RF_INFO_REGION_RECT_IN" Collapsed="true">
+    <Position X="16.5" Y="26.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RF_Code\RF_Position_API_v2.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RF_INFO_REGION_RECT" Collapsed="true">
+    <Position X="17.5" Y="30.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RF_Code\RF_Position_API_v2.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RF_INFO_REGION_LINE_IN" Collapsed="true">
+    <Position X="31.5" Y="17.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RF_Code\RF_Position_API_v2.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RF_INFO_REGION_LINE" Collapsed="true">
+    <Position X="30.5" Y="13.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RF_Code\RF_Position_API_v2.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RF_INFO_REGION_POINT_IN" Collapsed="true">
+    <Position X="0.5" Y="28.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RF_Code\RF_Position_API_v2.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RF_INFO_REGION_POINT" Collapsed="true">
+    <Position X="3.5" Y="30.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RF_Code\RF_Position_API_v2.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RF_INFO_REGION" Collapsed="true">
+    <Position X="38.5" Y="25.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RF_Code\RF_Position_API_v2.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RF_INFO_RSSI_OUT" Collapsed="true">
+    <Position X="11.5" Y="39.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RF_Code\RF_Position_API_v2.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RegionTagRssiListM" Collapsed="true">
+    <Position X="28.5" Y="25.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RF_Code\RF_Positon.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PRegionTagRssiListM" Collapsed="true">
+    <Position X="26.5" Y="29.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RF_Code\RF_Positon.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="eSAClient" Collapsed="true">
+    <Position X="15.5" Y="43.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAQCQ4AAAAAAAEAAAAAABAAACAAQQAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\SQLAPI.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eSAErrorClass" Collapsed="true">
+    <Position X="3.5" Y="43.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAgAAAAAAAAAAAAAAAQAAgBAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\SQLAPI.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eSAIsolationLevel" Collapsed="true">
+    <Position X="43.5" Y="17.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAwAMAAAAAEAAIAAAIAIAAAAgAAAEAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\SQLAPI.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eSAAutoCommit" Collapsed="true">
+    <Position X="11.5" Y="42.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIIAAAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\SQLAPI.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eSADataType" Collapsed="true">
+    <Position X="43.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gACAAAAQCgAQAAAEABIAAwAAAgEIgAAAgAEAAAAAAIA=</HashCode>
+      <FileName>SQLAPI\include\SQLAPI.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eSACommandType" Collapsed="true">
+    <Position X="42.5" Y="23.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>CAAQAAAAAAAIAAAAAAAAAAAAAAEAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>SQLAPI\include\SQLAPI.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eSAParamDirType" Collapsed="true">
+    <Position X="23.5" Y="41.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAAABAIgAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\SQLAPI.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eSALongOrLobReaderModes" Collapsed="true">
+    <Position X="41.5" Y="30.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SQLAPI\include\SQLAPI.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eSAPieceType" Collapsed="true">
+    <Position X="41.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAkAAAAAAAAAAIAAAAAAgAAAAAAAAAgAAAA=</HashCode>
+      <FileName>SQLAPI\include\SQLAPI.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6D5C6D52-1A53-4E84-8BC5-251E53CB202C}</ProjectGuid>
+    <RootNamespace>xDemo</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <ProjectName>xServer</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>./VLD;../xService\code\include;./RF_Code;./AFDAPI;./SQLAPI\include;./Logic;./Util;./Dlg;./;$(IncludePath)</IncludePath>
+    <LibraryPath>./VLD;D:\QC\VS_PRO\MyDemo\Debug;./SQLAPI\lib;./RKAPI\lib\Debug;./AFDAPI;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ReadMe.txt" />
+    <None Include="res\about1.bmp" />
+    <None Include="res\bitmap16.bmp" />
+    <None Include="res\bitmap2.bmp" />
+    <None Include="res\btn1_focus.bmp" />
+    <None Include="res\btn1_focus.png" />
+    <None Include="res\btn1_nornal.bmp" />
+    <None Include="res\btn1_nornal.png" />
+    <None Include="res\btn2_a.bmp" />
+    <None Include="res\btn2_b.bmp" />
+    <None Include="res\btn3_a.bmp" />
+    <None Include="res\btn3_b.bmp" />
+    <None Include="res\btn4_a.bmp" />
+    <None Include="res\btn4_b.bmp" />
+    <None Include="res\btn5_a.bmp" />
+    <None Include="res\btn5_b.bmp" />
+    <None Include="res\btn6_a.bmp" />
+    <None Include="res\btn6_b.bmp" />
+    <None Include="res\btn7_a.bmp" />
+    <None Include="res\btn7_b.bmp" />
+    <None Include="res\icon1.ico" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\Toolbar256.bmp" />
+    <None Include="res\xDemo.ico" />
+    <None Include="res\xDemo.rc2" />
+    <None Include="res\xDemoDoc.ico" />
+    <None Include="UserImages.bmp" />
+    <None Include="Util\ChartClass\ChartBalloonLabel.inl" />
+    <None Include="Util\ChartClass\ChartLabel.inl" />
+    <None Include="Util\ChartClass\ChartPointsArray.inl" />
+    <None Include="Util\ChartClass\ChartSerieBase.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\xService\code\include\x_boost.h" />
+    <ClInclude Include="..\xService\code\include\x_container.h" />
+    <ClInclude Include="..\xService\code\include\x_dummy.h" />
+    <ClInclude Include="..\xService\code\include\x_thread.h" />
+    <ClInclude Include="..\xService\code\include\x_util.h" />
+    <ClInclude Include="AFDAPI\AFD_ReaderComm.h" />
+    <ClInclude Include="Dlg\DlgDataBaseInfo.h" />
+    <ClInclude Include="Dlg\DlgLogin.h" />
+    <ClInclude Include="Dlg\DlgLogInfo.h" />
+    <ClInclude Include="Dlg\DlgMain.h" />
+    <ClInclude Include="Dlg\DlgMonitor.h" />
+    <ClInclude Include="Dlg\DlgRfAlgInfo.h" />
+    <ClInclude Include="Dlg\DlgRfExportInfo.h" />
+    <ClInclude Include="Dlg\DlgRfImportInfo.h" />
+    <ClInclude Include="Dlg\DlgRfSignalInfo.h" />
+    <ClInclude Include="Dlg\DlgSetting.h" />
+    <ClInclude Include="Logic\DataBaseOperater.h" />
+    <ClInclude Include="Logic\ListAdapter.h" />
+    <ClInclude Include="Logic\DlgTray.h" />
+    <ClInclude Include="Logic\MainService.h" />
+    <ClInclude Include="Logic\RfServece.h" />
+    <ClInclude Include="Logic\RfServiceClientTest.h" />
+    <ClInclude Include="Logic\ServerParameters.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="RF_Code\AFD_RF_API.h" />
+    <ClInclude Include="RF_Code\FileRoW.h" />
+    <ClInclude Include="RF_Code\RF_Algorithm.h" />
+    <ClInclude Include="RF_Code\RF_Ant125Manager.h" />
+    <ClInclude Include="RF_Code\RF_Array.h" />
+    <ClInclude Include="RF_Code\RF_Constant.h" />
+    <ClInclude Include="RF_Code\RF_Device.h" />
+    <ClInclude Include="RF_Code\RF_LineRegion.h" />
+    <ClInclude Include="RF_Code\RF_Math.h" />
+    <ClInclude Include="RF_Code\RF_MirrorRectRegion.h" />
+    <ClInclude Include="RF_Code\RF_NetTransmit.h" />
+    <ClInclude Include="RF_Code\RF_PointRegion.h" />
+    <ClInclude Include="RF_Code\RF_Position_API2_v2.h" />
+    <ClInclude Include="RF_Code\RF_Position_API_v2.h" />
+    <ClInclude Include="RF_Code\RF_Positon.h" />
+    <ClInclude Include="RF_Code\RF_RectRegion.h" />
+    <ClInclude Include="RF_Code\RF_Region.h" />
+    <ClInclude Include="RF_Code\RF_RegionBase .h" />
+    <ClInclude Include="RF_Code\RF_RegionFactory.h" />
+    <ClInclude Include="RF_Code\RF_TagManager.h" />
+    <ClInclude Include="RKAPI\BufferQueue.h" />
+    <ClInclude Include="RKAPI\GlobalDef.h" />
+    <ClInclude Include="RKAPI\RopeokServer.h" />
+    <ClInclude Include="RKAPI\RopeokTrans.h" />
+    <ClInclude Include="SQLAPI\include\db2API.h" />
+    <ClInclude Include="SQLAPI\include\ibAPI.h" />
+    <ClInclude Include="SQLAPI\include\infAPI.h" />
+    <ClInclude Include="SQLAPI\include\myAPI.h" />
+    <ClInclude Include="SQLAPI\include\odbcAPI.h" />
+    <ClInclude Include="SQLAPI\include\ora7API.h" />
+    <ClInclude Include="SQLAPI\include\oraAPI.h" />
+    <ClInclude Include="SQLAPI\include\pgAPI.h" />
+    <ClInclude Include="SQLAPI\include\samisc.h" />
+    <ClInclude Include="SQLAPI\include\sbAPI.h" />
+    <ClInclude Include="SQLAPI\include\sl3API.h" />
+    <ClInclude Include="SQLAPI\include\SQLAPI.h" />
+    <ClInclude Include="SQLAPI\include\ss6API.h" />
+    <ClInclude Include="SQLAPI\include\ssNcliAPI.h" />
+    <ClInclude Include="SQLAPI\include\ssOleDbAPI.h" />
+    <ClInclude Include="SQLAPI\include\sybAPI.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TinyXML\tinystr.h" />
+    <ClInclude Include="TinyXML\tinyxml.h" />
+    <ClInclude Include="Util\ChartClass\ChartAxis.h" />
+    <ClInclude Include="Util\ChartClass\ChartAxisLabel.h" />
+    <ClInclude Include="Util\ChartClass\ChartBalloonLabel.h" />
+    <ClInclude Include="Util\ChartClass\ChartBarSerie.h" />
+    <ClInclude Include="Util\ChartClass\ChartCandlestickSerie.h" />
+    <ClInclude Include="Util\ChartClass\ChartCrossHairCursor.h" />
+    <ClInclude Include="Util\ChartClass\ChartCtrl.h" />
+    <ClInclude Include="Util\ChartClass\ChartCursor.h" />
+    <ClInclude Include="Util\ChartClass\ChartDateTimeAxis.h" />
+    <ClInclude Include="Util\ChartClass\ChartDragLineCursor.h" />
+    <ClInclude Include="Util\ChartClass\ChartFont.h" />
+    <ClInclude Include="Util\ChartClass\ChartGanttSerie.h" />
+    <ClInclude Include="Util\ChartClass\ChartGradient.h" />
+    <ClInclude Include="Util\ChartClass\ChartGrid.h" />
+    <ClInclude Include="Util\ChartClass\ChartLabel.h" />
+    <ClInclude Include="Util\ChartClass\ChartLegend.h" />
+    <ClInclude Include="Util\ChartClass\ChartLineSerie.h" />
+    <ClInclude Include="Util\ChartClass\ChartLogarithmicAxis.h" />
+    <ClInclude Include="Util\ChartClass\ChartMouseListener.h" />
+    <ClInclude Include="Util\ChartClass\ChartPointsArray.h" />
+    <ClInclude Include="Util\ChartClass\ChartPointsSerie.h" />
+    <ClInclude Include="Util\ChartClass\ChartScrollBar.h" />
+    <ClInclude Include="Util\ChartClass\ChartSerie.h" />
+    <ClInclude Include="Util\ChartClass\ChartSerieBase.h" />
+    <ClInclude Include="Util\ChartClass\ChartSeriesMouseListener.h" />
+    <ClInclude Include="Util\ChartClass\ChartStandardAxis.h" />
+    <ClInclude Include="Util\ChartClass\ChartString.h" />
+    <ClInclude Include="Util\ChartClass\ChartSurfaceSerie.h" />
+    <ClInclude Include="Util\ChartClass\ChartTitle.h" />
+    <ClInclude Include="Util\ChartClass\ChartXYSerie.h" />
+    <ClInclude Include="Util\ChartClass\PointsOrdering.h" />
+    <ClInclude Include="Util\CpuUsage\CpuCounterInfo.h" />
+    <ClInclude Include="Util\CpuUsage\CpuLog.h" />
+    <ClInclude Include="Util\CpuUsage\CpuQuery.h" />
+    <ClInclude Include="Util\DBWindow.h" />
+    <ClInclude Include="Util\DJWStatic.h" />
+    <ClInclude Include="Util\MyCpuStatus.h" />
+    <ClInclude Include="Util\MyGifPicture.h" />
+    <ClInclude Include="Util\MySqlCon.h" />
+    <ClInclude Include="Util\MyWatchDog.h" />
+    <ClInclude Include="Util\PictureEx.h" />
+    <ClInclude Include="Util\RkUtil.h" />
+    <ClInclude Include="Util\RkUtil\Global_Define.h" />
+    <ClInclude Include="Util\RkUtil\RKGUI_DrawImage.h" />
+    <ClInclude Include="Util\RkUtil\RKGUI_System.h" />
+    <ClInclude Include="Util\RkUtil\RKGUI_Typedef.h" />
+    <ClInclude Include="Util\RkUtil\SendingQueue.h" />
+    <ClInclude Include="Util\RkUtil\TransProtocol.h" />
+    <ClInclude Include="xDemo.h" />
+    <ClInclude Include="xDemoDoc.h" />
+    <ClInclude Include="xDemoView.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Dlg\DlgDataBaseInfo.cpp" />
+    <ClCompile Include="Dlg\DlgLogin.cpp" />
+    <ClCompile Include="Dlg\DlgLogInfo.cpp" />
+    <ClCompile Include="Dlg\DlgMain.cpp" />
+    <ClCompile Include="Dlg\DlgMonitor.cpp" />
+    <ClCompile Include="Dlg\DlgRfAlgInfo.cpp" />
+    <ClCompile Include="Dlg\DlgRfExportInfo.cpp" />
+    <ClCompile Include="Dlg\DlgRfImportInfo.cpp" />
+    <ClCompile Include="Dlg\DlgRfSignalInfo.cpp" />
+    <ClCompile Include="Dlg\DlgSetting.cpp" />
+    <ClCompile Include="Logic\DataBaseOperater.cpp" />
+    <ClCompile Include="Logic\ListAdapter.cpp" />
+    <ClCompile Include="Logic\DlgTray.cpp" />
+    <ClCompile Include="Logic\MainService.cpp" />
+    <ClCompile Include="Logic\RfServece.cpp" />
+    <ClCompile Include="Logic\RfServiceClientTest.cpp" />
+    <ClCompile Include="Logic\ServerParameters.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="RF_Code\AFD_RF_API.cpp" />
+    <ClCompile Include="RF_Code\FileRoW.cpp" />
+    <ClCompile Include="RF_Code\RF_Algorithm.cpp" />
+    <ClCompile Include="RF_Code\RF_Ant125Manager.cpp" />
+    <ClCompile Include="RF_Code\RF_Array.cpp" />
+    <ClCompile Include="RF_Code\RF_Constant.cpp" />
+    <ClCompile Include="RF_Code\RF_Device.cpp" />
+    <ClCompile Include="RF_Code\RF_LineRegion.cpp" />
+    <ClCompile Include="RF_Code\RF_Math.cpp" />
+    <ClCompile Include="RF_Code\RF_MirrorRectRegion.cpp" />
+    <ClCompile Include="RF_Code\RF_NetTransmit.cpp" />
+    <ClCompile Include="RF_Code\RF_PointRegion.cpp" />
+    <ClCompile Include="RF_Code\RF_Position_API_v2.cpp" />
+    <ClCompile Include="RF_Code\RF_Positon.cpp" />
+    <ClCompile Include="RF_Code\RF_RectRegion.cpp" />
+    <ClCompile Include="RF_Code\RF_Region.cpp" />
+    <ClCompile Include="RF_Code\RF_RegionBase.cpp" />
+    <ClCompile Include="RF_Code\RF_RegionFactory.cpp" />
+    <ClCompile Include="RF_Code\RF_TagManager.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinystr.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxml.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlerror.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlparser.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Util\ChartClass\ChartAxis.cpp" />
+    <ClCompile Include="Util\ChartClass\ChartAxisLabel.cpp" />
+    <ClCompile Include="Util\ChartClass\ChartBarSerie.cpp" />
+    <ClCompile Include="Util\ChartClass\ChartCandlestickSerie.cpp" />
+    <ClCompile Include="Util\ChartClass\ChartCrossHairCursor.cpp" />
+    <ClCompile Include="Util\ChartClass\ChartCtrl.cpp" />
+    <ClCompile Include="Util\ChartClass\ChartCursor.cpp" />
+    <ClCompile Include="Util\ChartClass\ChartDateTimeAxis.cpp" />
+    <ClCompile Include="Util\ChartClass\ChartDragLineCursor.cpp" />
+    <ClCompile Include="Util\ChartClass\ChartFont.cpp" />
+    <ClCompile Include="Util\ChartClass\ChartGanttSerie.cpp" />
+    <ClCompile Include="Util\ChartClass\ChartGradient.cpp" />
+    <ClCompile Include="Util\ChartClass\ChartGrid.cpp" />
+    <ClCompile Include="Util\ChartClass\ChartLegend.cpp" />
+    <ClCompile Include="Util\ChartClass\ChartLineSerie.cpp" />
+    <ClCompile Include="Util\ChartClass\ChartLogarithmicAxis.cpp" />
+    <ClCompile Include="Util\ChartClass\ChartPointsSerie.cpp" />
+    <ClCompile Include="Util\ChartClass\ChartScrollBar.cpp" />
+    <ClCompile Include="Util\ChartClass\ChartSerie.cpp" />
+    <ClCompile Include="Util\ChartClass\ChartStandardAxis.cpp" />
+    <ClCompile Include="Util\ChartClass\ChartSurfaceSerie.cpp" />
+    <ClCompile Include="Util\ChartClass\ChartTitle.cpp" />
+    <ClCompile Include="Util\ChartClass\ChartXYSerie.cpp" />
+    <ClCompile Include="Util\CpuUsage\CpuQuery.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Util\DBWindow.cpp" />
+    <ClCompile Include="Util\DJWStatic.cpp" />
+    <ClCompile Include="Util\MyCpuStatus.cpp" />
+    <ClCompile Include="Util\MyGifPicture.cpp" />
+    <ClCompile Include="Util\MySqlCon.cpp" />
+    <ClCompile Include="Util\MyWatchDog.cpp" />
+    <ClCompile Include="Util\PictureEx.cpp" />
+    <ClCompile Include="Util\RkUtil\Global_Define.cpp" />
+    <ClCompile Include="Util\RkUtil\RKGUI_DrawImage.cpp" />
+    <ClCompile Include="Util\RkUtil\RKGUI_System.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Util\RkUtil\SendingQueue.cpp" />
+    <ClCompile Include="xDemo.cpp" />
+    <ClCompile Include="xDemoDoc.cpp" />
+    <ClCompile Include="xDemoView.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="xDemo.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="xDemo.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
